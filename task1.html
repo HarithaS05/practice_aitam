@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Registration Form For Event</h1>
+
+    <form action="out.html" style="width: 500px;">
+        <fieldset>
+            <legend><h3>Participent Details</h3></legend>
+            <label for="Rollnumber">RollNumber</label>
+            <input type="text" name="" id="rollnmber" placeholder="Enter your rollnumber">
+            <br><br>
+            <label for="name">Name:</label>
+            <input type="text" name="" id="name" placeholder="Enter your name">
+            <br><br>
+
+            <label for="gender">Gender:</label>
+            <input type="radio" id="gender" name="gender">Male
+            <input type="radio" id="gender" name="gender">Female
+            <br>
+            <br>
+            <label for="dob">Date Of Birth:</label>
+            <input type="date" name="dob" id="dob">
+            <br>
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" placeholder="enter your email address">
+            <br><br>
+            <label for="number">Phone number:</label>
+            <input type="number" id="number" placeholder="enter your phone number">
+            <br><br>
+            <p><i>Event You Want To Partcipate:</i></p>
+            <label for="event">Event:</label>
+            <select name="event" id="event" aria-placeholder="select">
+                <option value="select" disabled selected>select</option>
+                <option value="culture">Cultural Activities</option>
+                <option value="dance"></option>
+                <option value="singing">Organizing</option>
+                <option value="hosting">Hosting</option>
+                <option value="Decorating">Decorating</option>
+            </select><br><br>
+            <i>You are Interested in</i><br>
+            <input type="checkbox" name="hosting" id="hosting">Hosting <br>
+            <input type="checkbox" name="decorating" id="decorating">Decorating <br>
+            <input type="checkbox" name="Dancing" id="dancing">Dancing <br>
+            <input type="checkbox" name="Photography" id="Photography">Photography<br>
+            <input type="checkbox" name="singing" id="singing">Singing<br><br>
+            <label for="prof">Proficiency</label>
+            <input type="range" name="prof" id="prof">
+            <br>
+            <br>
+            <label for="branch">Branch:</label>
+            <select name="branch" id="branch">
+                <option value="select" disabled selected>select</option>
+                <option value="1">CSE</option>
+                <option value="2">ECE</option>
+                <option value="3">Mech</option>
+                <option value="4">IT</option>
+                <option value="5">EEE</option>
+                <option value="6">CSM</option>
+                <option value="6">CSD</option>
+
+            </select><br><br>
+            <label for="year">Year:</label>
+            <select name="branch" id="branch">
+                <option value="select" disabled selected>select</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+            </select>
+            <br><br>
+            <label for="sccol">Scholar:</label>
+            <input type="radio" id="sccol" name="sccol">Day Scholar
+            <input type="radio" id="sccol" name="sccol">Hosteller
+            <br>
+            <br>
+            <label for="Time">Time You Are Available in College:</label>
+            <input type="checkbox" id="checkbox" name="checkbox">9am-4pm
+            <input type="checkbox" id="checkbox" name="checkbox">All time
+            <br>
+            <label for="check box"></label><br>
+            <input type="checkbox" id="checkbox" name="checkbox">Re-Check the details provided by you before submit.
+        </fieldset>
+        <br>
+        
+        <center>
+            <input type="submit" value="Sublit">
+            <input type="reset" value="Reset">
+        </center>
+    </form>
+</body>
+</html>
