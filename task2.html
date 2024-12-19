@@ -1,0 +1,71 @@
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>Registration Form</title>  
+    <link rel="stylesheet" href="styles.css">  
+</head>  
+<body>  
+    <div class="container">  
+        <fieldset>
+            <legend>personal information</legend> 
+        <dset action="registration" method="get">  
+            <label for="firstname"><b>First Name</b></label>  
+            <input type="text" id="fname" name="firstname" placeholder="Enter Your First Name" required>  
+                <br>
+                <br>
+            <label for="lname"><b>Last Name</b></label>  
+            <input type="text" id="lname" name="lastname" placeholder="Enter Your Last Name" required>  
+            <br>
+            <br>
+            <label for="email"><b>Email</b></label>  
+            <input type="email" id="email" name="email" placeholder="Enter Your Email" required>  
+             <br>
+             <br>
+            <label for="password"><b>Password</b></label>  
+            <input type="password" id="password" name="password" placeholder="Enter Password" required>  
+            <br>
+            <br>
+            <label for="conform-password"><b>Conform-Password</b></label>  
+            <input type="password" id="conform-password" name="conform-password" placeholder="conforim Password" required>  
+            <br>
+            <br>
+            <label for="mobile"><b>Contact</b></label>  
+            <input type="text" id="mobile" name="mobile" maxlength="10" placeholder="Enter Contact Number" required>  
+            <br>
+            <br>
+            <label for="age-group"><b>Age Group</b></label>  
+            <select id="gender" name="gender" required>  
+                <option value="below 20">Below 20</option>  
+                <option value="21-45">21-50</option>  
+                <option value="above 50">above 50</option>  
+            </select>  
+            <br>
+            <br>
+            <label for="Gender"><b>Gender</b></label> 
+            <input type="radio" id="gender">Female</input>
+            <input type="radio" id="gender">Male</input>
+            <input type="radio" id="gender">Others</input>
+            <br>
+            <br>
+            <label for=" Date Of Birth"><b>Date Of Birth</b></label>
+            <input type="date" id="birthday" name="birthday">
+            <br>
+            <br>
+            <label for="check box"><b>Re-Checked</b></label><br>
+<input type="checkbox" " value="check box">
+            <br>
+            <br>
+            <fieldset>
+                <legend><b>description</b></legend>
+            </fieldset>
+            <br>
+            <br>
+            <button type="submit"><b>Register</b></button>  
+        </form>  
+        </fieldset>
+     </div>  
+</table>
+</body>  
+</html>  
